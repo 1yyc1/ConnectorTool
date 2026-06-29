@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool.Tests\\ConnectorTool.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool.Tests\\ConnectorTool.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool.Tests\\ConnectorTool.Tests.csproj",
+        "projectName": "ConnectorTool.Tests",
+        "projectPath": "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool.Tests\\ConnectorTool.Tests.csproj",
+        "packagesPath": "C:\\Users\\yyc\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\vs\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "framework": "net48",
+            "targetAlias": "net48",
+            "projectReferences": {
+              "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool\\ConnectorTool.csproj": {
+                "projectPath": "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool\\ConnectorTool.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net48": {
+          "framework": "net48",
+          "targetAlias": "net48",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.6.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.6.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool\\ConnectorTool.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool\\ConnectorTool.csproj",
+        "projectName": "ConnectorTool",
+        "projectPath": "D:\\project\\cs_project\\ConnectorTool\\ConnectorTool\\ConnectorTool.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "framework": "net48",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "framework": "net48"
+        }
+      }
+    }
+  }
+}

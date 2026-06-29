@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    这是单元测试项目，不是最终给用户打开的连点器程序。
+    它引用主项目 ConnectorTool，然后用 MSTest 验证服务层逻辑是否符合预期。
+  -->
+  <PropertyGroup>
+    <!-- 测试项目和主程序保持同一个 .NET Framework 版本，避免运行时行为不一致。 -->
+    <TargetFramework>net48</TargetFramework>
+
+    <!-- 测试项目不需要被打包发布。 -->
+    <IsPackable>false</IsPackable>
+
+    <!-- 使用较新的 C# 语法，方便写更简洁的测试代码。 -->
+    <LangVersion>latest</LangVersion>
+
+    <!-- 主项目是 WinForms 程序，测试项目引用它时也开启 WinForms 支持。 -->
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- dotnet test / Visual Studio 测试资源管理器识别测试项目所需的 SDK。 -->
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+
+    <!-- MSTest 适配器：负责把 [TestClass]、[TestMethod] 暴露给测试运行器。 -->
+    <PackageReference Include="MSTest.TestAdapter" Version="3.6.4" />
+
+    <!-- MSTest 框架：提供 TestClassAttribute、TestMethodAttribute、Assert 等测试 API。 -->
+    <PackageReference Include="MSTest.TestFramework" Version="3.6.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- 引用主项目后，测试代码才能直接使用 ConnectorTool.Services 里的类。 -->
+    <ProjectReference Include="..\ConnectorTool\ConnectorTool.csproj" />
+  </ItemGroup>
+</Project>

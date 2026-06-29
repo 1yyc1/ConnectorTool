@@ -1,0 +1,11 @@
+D:\project\cs_project\ConnectorTool\ConnectorTool\bin\Release\image\秒表.ico
+D:\project\cs_project\ConnectorTool\ConnectorTool\bin\Release\ConnectorTool.exe.config
+D:\project\cs_project\ConnectorTool\ConnectorTool\bin\Release\ConnectorTool.exe
+D:\project\cs_project\ConnectorTool\ConnectorTool\bin\Release\ConnectorTool.pdb
+D:\project\cs_project\ConnectorTool\ConnectorTool\obj\Release\ConnectorTool.csproj.AssemblyReference.cache
+D:\project\cs_project\ConnectorTool\ConnectorTool\obj\Release\ConnectorTool.Forms.PositionPickerForm.resources
+D:\project\cs_project\ConnectorTool\ConnectorTool\obj\Release\ConnectorTool.Properties.Resources.resources
+D:\project\cs_project\ConnectorTool\ConnectorTool\obj\Release\ConnectorTool.csproj.GenerateResource.cache
+D:\project\cs_project\ConnectorTool\ConnectorTool\obj\Release\ConnectorTool.csproj.CoreCompileInputs.cache
+D:\project\cs_project\ConnectorTool\ConnectorTool\obj\Release\ConnectorTool.exe
+D:\project\cs_project\ConnectorTool\ConnectorTool\obj\Release\ConnectorTool.pdb

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConnectorTool.Tests/ConnectorTool.Tests.csproj" />
+  <Project Path="ConnectorTool/ConnectorTool.csproj" Id="dc8e02b5-7c54-4d03-983b-22dac59712d8" />
+</Solution>
